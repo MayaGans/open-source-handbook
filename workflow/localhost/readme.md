@@ -29,5 +29,6 @@ Sometimes hosting a local copy of a webpage is helpful for testing or developmen
 4. Change to the desired branch with `git checkout **branch-name**` (e.g. `git checkout dev-v0.8.3`)
 5. Update the branch with `git pull`  
 6. Start a temporary local web server by typing this command: `python -m SimpleHTTPServer 8000`. 
+   - Note: as of python 3 `SimpleHTTPServer` has been replaced by `http.server` type this command instead: (`python -m http.server 9000`)
    - Note that you can start multiple servers at the same time by using different host numbers (e.g. 8001, 8002, etc.)
 7. View the page in your web-browser by going to `localhost:8000\test-page` in the navigation bar. 
